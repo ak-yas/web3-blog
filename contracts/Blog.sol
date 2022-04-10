@@ -85,6 +85,6 @@ contract Blog {
             Post storage currentItem = idToPost[currentId];
             posts[i] = currentItem;
         }
-        return posts
+        return posts;
     }
 }
